@@ -160,7 +160,7 @@ nav ul {
     --hover_color: hsl(271, 61%, 60%);
     --text-color: hsl(271, 61%, 80%);
     --shadow_color: hsl(271, 61%, 10%, 0.4);
-    --blur_color: hsl(271, 61%, 60%, 10%);
+    --blur_color: hsl(271, 61%, 60%, 70%);
 
     --gradient_1: hsl(271, 61%, 50%, 0.2);
     /* 0.2 i alpha*/
