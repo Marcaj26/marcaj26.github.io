@@ -1,15 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
-    <link rel="stylesheet" href="contact_style.css">
-</head>
-<body>
-    
-
- <nav>
+<nav>
          <ul class="sidebar">
             <li onclick = hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#e3e3e3"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a>
             <!-- <li><a href="#">Logo</a></li> -->
@@ -34,35 +23,3 @@
             
         </ul>
     </nav>
-
-    <div class="contact-container">
-        <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
-            <div class="contact-left-title">
-                <h2>Skriv til mig</h2>
-                <hr>
-            </div>
-            <input type="hidden" name="access_key" value="22467015-aa0d-47d6-b725-2342808aeffe">
-            <input type="text" name="name" placeholder="Dit Navn" class="contact-inputs" required>
-            <input type="email" name="email" placeholder="Din Email" class="contact-inputs"required>
-            <textarea type="message" name="message" placeholder="Din Besked" class="contact-inputs"required></textarea>
-            <button type="submit">Send <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#e3e3e3"><path d="M120-160v-640l760 320-760 320Zm80-120 474-200-474-200v140l240 60-240 60v140Zm0 0v-400 400Z"/></svg></button>
-        </form>
-       
-    </div>
-
-
-
-
-    
-    <script>
-        function showSidebar(){
-            const sidebar = document.querySelector('.sidebar')
-            sidebar.style.display = 'flex'
-        }
-        function hideSidebar(){
-            const sidebar = document.querySelector('.sidebar')
-            sidebar.style.display = 'none'
-        }
-    </script>
-</body>
-</html>
