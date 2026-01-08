@@ -227,7 +227,7 @@ nav ul {
     outline: none;
     padding-left: 25px;
     font-weight: 500;
-    color: var(--text-color);
+    color: var(--main_color);
     border-radius: 50px;
 
 }
@@ -247,8 +247,8 @@ nav ul {
 }
 
 .contact-inputs::placeholder {
-    color: var(--blur_color);
-    font-family: "pixelfy", sans-serif;
+    color: var(--gradient_3);
+
 }
 
 .contact-left button {

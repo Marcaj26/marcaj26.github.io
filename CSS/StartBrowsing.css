@@ -234,7 +234,7 @@ nav ul {
 
 .card-text {
     position: absolute;
-    bottom: 10%;
+    bottom: 15%;
     left: 50%;
     transform: translate(-50%, 50%);
     color: var(--text_color);
